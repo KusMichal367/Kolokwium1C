@@ -1,5 +1,7 @@
 using Kolokwium1C.Models;
 using Kolokwium1C.Services;
+using Kolokwium1C.Controllers;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 
