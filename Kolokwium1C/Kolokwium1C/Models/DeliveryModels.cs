@@ -2,29 +2,29 @@ namespace Kolokwium1C.Models;
 
 public class Customer
 {
-    string firstName { get; set; }
-    string lastName { get; set; }
-    DateTime dateOfBirth { get; set; }
+    public string firstName { get; set; }
+    public string lastName { get; set; }
+    public DateTime dateOfBirth { get; set; }
 }
 
 public class Driver
 {
-    string firstName { get; set; }
-    string lastName { get; set; }
-    string licenseNumber { get; set; }
+    public string firstName { get; set; }
+    public string lastName { get; set; }
+    public string licenseNumber { get; set; }
 }
 
 public class Product
 {
-    string name { get; set; }
-    decimal price { get; set; }
-    int amount {get;set;}
+    public string name { get; set; }
+    public decimal price { get; set; }
+    public int amount {get;set;}
 }
 
 public class DeliveryDTO
 {
-    DateTime date { get; set; }
-    Customer customer { get; set; }
-    Driver driver { get; set; }
-    List<Product> products { get; set; }
+    public DateTime date { get; set; }
+    public Customer customer { get; set; }
+    public Driver driver { get; set; }
+    public List<Product> products { get; set; }
 }
