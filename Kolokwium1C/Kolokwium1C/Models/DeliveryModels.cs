@@ -26,5 +26,5 @@ public class DeliveryDTO
     public DateTime date { get; set; }
     public Customer customer { get; set; }
     public Driver driver { get; set; }
-    public List<Product> products { get; set; }
+    public List<Product> products { get; set; } = new List<Product>();
 }
